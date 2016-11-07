@@ -92,3 +92,23 @@ body {
 .peace {
 	color: #e59eff;
 }
+
+          /**** portfolio page ****/
+
+.row {
+	height: 100%;
+	/*overflow: scroll*/;
+}
+
+.myclass {
+	margin: 10px 0 2px 25px;
+}
+
+.myclass p {
+	padding: 10px 0 0 20px;
+	font-weight: 600;
+}
+
+
+
+
