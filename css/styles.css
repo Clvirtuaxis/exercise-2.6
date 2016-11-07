@@ -5,6 +5,7 @@ body {
 }
 
 .navbar {
+	
 	background-color: grey;
 	box-shadow: 3px 3px 4px 3px #000;
 }
@@ -18,7 +19,7 @@ body {
 }
 
 .container {
-	margin-top: -50px;
+	margin-top: -45px;
 	margin-left: 10px;
 	background-color: lightgrey;
 	box-shadow: 3px 3px 3px 3px #888888;
@@ -39,6 +40,7 @@ body {
 
 .navbar-toggle {
 	background-color: #039;
+	box-shadow: 5px 5px 5px #767676;
 }
 
 .nav li a {
@@ -82,22 +84,31 @@ body {
 }
 
 .carousel-caption p {
-	margin-top: -220px;
+	margin-top: -120px;
 }
 
 #carousel-example-generic {
-	padding-top: 65px;
+	padding-top: 40px;
+	top: 40px;
 }
 
 .peace {
 	color: #e59eff;
 }
 
+.new {
+	margin-top: 110px;
+	margin-left: 30px;
+	text-align: center;
+}
+
+
+
           /**** portfolio page ****/
 
 .row {
-	height: 100%;
-	/*overflow: scroll*/;
+	min-height: 100%;
+	overflow: scroll;
 }
 
 .myclass {
@@ -108,7 +119,6 @@ body {
 	padding: 10px 0 0 20px;
 	font-weight: 600;
 }
-
 
 
 
