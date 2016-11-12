@@ -1,27 +1,147 @@
-body {
-	width: 100%;
-	background-color: lightgrey;
-	background-size: cover;
+* {
+	padding: 0;
+	margin: 0;
 }
 
-.navbar {
-	
-	background-color: grey;
-	box-shadow: 3px 3px 4px 3px #000;
+body {
+	position: relative;
+	width: 100%;
+	background: url("../img/bridge.jpeg") no-repeat center center fixed;
+	background-size: cover;
+}	
+
+.container {
+	background-color:rgba(240, 248, 255, 0.90);
+	width: 96%;
+	padding-top: 70px;
+}
+
+.container-fluid {
+	background-color:rgba(240, 248, 255, 0.90);
+	margin: 0 -15px;
 }
 
 .logo {
 	position: relative;
-	margin: 40px 50px 0;
+	margin: 70px 50px 0;
 	display: inline-block;
-	margin-left: 50px;
 	box-shadow: 10px 10px 5px #767676;
 }
 
-.container {
-	margin-top: -45px;
-	margin-left: 10px;
-	background-color: lightgrey;
+.navbar {
+	background-color:rgba(255, 255, 255, 0.90);
+	margin: -60px 15px 20px;
+}
+
+.navbar-toggle {
+	background-color: #039;
+	box-shadow: 5px 5px 5px #767676;
+}
+
+.nav li {
+	margin: 15px 0 0 5px;
+}
+
+.nav li a {
+	border-bottom: 4px solid #039;
+	text-transform: uppercase;
+  letter-spacing: 0.05em;
+	text-decoration: none;
+	transition: color 800ms;
+	-webkit-transition: color 800ms;
+	padding: 5px 25px;
+}
+
+.nav li a:hover {
+	border-bottom: 4px solid #6b95ff;
+	color: #e0dedc;
+	letter-spacing: 0.05em;
+	padding: 5px 25px;
+	transition: color 800ms;
+	-webkit-transition: color 800ms;
+}
+
+.dropdown-menu {
+	background-color: #f0f8ff;
+}
+
+.dropdown-menu li {
+ margin: -2px;
+}
+
+.dropdown-menu li:hover {
+	margin: -2px;
+}
+
+.dropdown-menu li a {
+	text-decoration: none;
+	text-transform: capitalize;
+	border: none;
+}
+
+.dropdown-menu li a:hover {
+	text-decoration: none;
+	text-transform: capitalize;
+	border: none;
+}
+
+.dropdown li a {
+	color: #646c70;
+}
+
+.dropdown li a:hover {
+	color: #000;
+}
+
+.carousel-caption p {
+	margin-top: -190px;
+	font-size: 1.6em;
+}
+
+.right.carousel-control, .left.carousel-control {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.mystyle {
+	color: black;
+}
+
+.index {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.index h4 {
+	font-weight: 1.3em;
+}
+
+.skills {
+	width: 50%;
+	margin: 20px 0 0 50px;
+}
+
+.skills li {
+	list-style-type: none;
+	text-align: left;
+}
+
+.pro {
+  width: 50%;
+  margin: -200px 0 0 200px;
+}
+
+.pro li {
+	list-style-type: none;
+	text-align: left;
+}	
+
+#carousel-example-generic {
+	top: 40px;
+}
+
+#intro {
+	margin: -80px 10px 0px;
 	box-shadow: 3px 3px 3px 3px #888888;
 }
 
@@ -38,87 +158,13 @@ body {
 	border: none;}
 }
 
-.navbar-toggle {
-	background-color: #039;
-	box-shadow: 5px 5px 5px #767676;
-}
-
-.nav li a {
-	border-bottom: 4px solid #039;
-	text-transform: uppercase;
-	letter-spacing: 0.05em;
-	color: #444;
-	text-decoration: none;
-	transition: color 800ms;
-	-webkit-transition: color 800ms;
-	padding: 5px 25px;
-}
-
-.nav li a:hover {
-	border-bottom: 4px solid #6b95ff;
-	color: #6b95ff;
-	letter-spacing: 0.05em;
-	padding: 5px 25px;
-	transition: color 800ms;
-	-webkit-transition: color 800ms;
-}
-
-.dropdown-menu li a {
-	text-decoration: none;
-	text-transform: capitalize;
-	border: none;
-}
-
-.dropdown-menu li a:hover {
-	text-decoration: none;
-	text-transform: capitalize;
-	border: none;
-}
-
-.container-fluid {
-	margin: 60px -50px 0 -40px;
-}
-
-.carousel-inner {
-	font-size: 1.5em;
-}
-
-.carousel-caption p {
-	margin-top: -120px;
-}
-
-#carousel-example-generic {
-	padding-top: 40px;
-	top: 40px;
-}
-
-.peace {
-	color: #e59eff;
-}
-
-.new {
-	margin-top: 110px;
-	margin-left: 30px;
-	text-align: center;
-}
-
 
 
           /**** portfolio page ****/
 
-.row {
-	min-height: 100%;
-	overflow: scroll;
-}
+    		 /**** BLog page ***/
 
-.myclass {
-	margin: 10px 0 2px 25px;
-}
-
-.myclass p {
-	padding: 10px 0 0 20px;
-	font-weight: 600;
-}
+  		   /**** contact page ***/
 
 
 

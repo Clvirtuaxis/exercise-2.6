@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-    <title>Virtuaxis Digital Media Solutions Developers</title> 
+    <title>Geoffrey Landry ux designer and ios developer</title> 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> 
 
@@ -22,16 +25,16 @@
     <![endif]-->
   </head>
 
-  <body>
-    
+  <body data-spy="scroll" data-target=".navbar">
+    <!--navbar starts here-->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="logo">
           <a href="index.html"><img src="img/G.jpg" alt="Geoffrey Landry ios developer"></a>
         </div>
-      <div class="container">
+      <div class="container-fluid" id="intro">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">toggle navigation</span>
+            <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -40,26 +43,37 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="index.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li class="active"><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
             <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio<b class="caret"></b></a>
           <ul class="dropdown-menu">
+            <li><a href="#work">Work</a></li>
+            <li><a href="#work1">Work1</a></li>
+          </ul></li>             
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+            
+            
+              
+              
+            <!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b></a>
+          <!--<ul class="dropdown-menu">
             <li class="dropdown-header">Site Map</li>
             <li><a href="index.html">About</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-            </li>
-        </ul>
-        </div>
-      </div>
-    </div>
+            <li><a href="contact.html">Contact</a></li> -->
+          
+       
+          
+            
+        
+        </div> <!--nav collapse-->
+      </div> <!--end nav container-->
+    </div> <!--end navbar-->
 
     <div class="container-fluid">
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="4000">
@@ -69,25 +83,31 @@
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
   </ol>
+  <!--end navbar-->
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="img/benchcopy.jpg" alt="pensive" class="img-responsive">
+      <img src="img/kodak.jpg" alt="camera" class="img-responsive">
       <div class="carousel-caption">
-        <p><strong>Pondering</strong> on the best options for your website?</p>
+        <div class="mystyle">
+        <p>An eye for style and beauty.</p>
+        </div>
       </div>
     </div>
     <div class="item">
-      <img src="img/lightning.jpg" alt="indecisive" class="img-responsive">
+      <img src="img/work.jpg" alt="at work" class="img-responsive">
       <div class="carousel-caption">
-        <p><strong>Frustrated</strong> by the amount of companies, freelancers, job seekers out there offering their services?</p>
-      </div>
+       <!--  <p>A thorough and rigorous work ethic.</p>-->
+        <p>A reliable and dedicated professional.</p>
+       </div>
     </div>
     <div class="item">
-      <img src="img/beach.jpg" alt="peace" class="img-responsive">
+      <img src="img/ux.jpg" alt="ux design" class="img-responsive">
       <div class="carousel-caption">
-        <p><span class="peace"><strong>Unwind&nbsp</strong></span>knowing you have found in me the solution to your problem.</p>
+        <div class="mystyle">
+        <p>A passion for designing and developing applications</p>
+        </div>
       </div>
     </div>
   </div>
@@ -104,40 +124,223 @@
 </div>
 </div>
     
-  <div class="container">  
-    <div class="row" id="work">
-    <div class="new">
-      <div class="col-xs-12 col-sm-4 col-md-4"><div class="index">
+  <div class="container" id="about">
+    <h2>About Me</h2>  
+    <div class="row" id="background">
+      <div class="col-xs-12 col-sm-8 col-md-8">        
+        <div class="index">
         <h4>Background</h4>
         <p>My first calling was to help animal. As a child I had a need to take care of every kind of legged creatures that came near me. Wether they were cats, dogs, horses, birds, lizards, rodents, incects, they all ended up belonging to me!<br> This eagerness lead me to start a career as a veterinary assistant. After 10 years of following my passion, I turned to technology, specialysing in x-ray and discovering my second passion, the workings of computers!</p>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-4 col-md-4"><div class="index">
-        <h4>Present</h4>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+       <div class="index">
+        <h4>&nbsp;</h4>
+           <p>&quotTraveling the world, all the while creating amazing works of art.</p>
+        </div>      
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-8 col-md-8">
+      <div class="index">
+        <h4>Passions</h4>
         <p>We will work with you to bring forth beautiful applications and awesome website following your ideas and plans. Designing perfect digital media is our mission in life. Like so many others, depend on us to built the best design for your needs.</p>
-      </div>
+      </div></div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <div class="index">
+          &nbsp
         </div>
-      <div class="col-xs-12 col-sm-4 col-md-4"><div class="index">
-        <h4>Futur</h4>
-        <p>Traveling the world, all the while creating amazing works of art.</p>
-        </div>
+      </div>
+    </div> <!-- row  -->
+  </div> <!-- container -->
+
+  <div class="container" id="services">
+    <h2>Services</h2>
+    <div class="row">
+    <div class="index">
+      <div class="col-xs-12 col-sm-7 col-md-7 col-lg-8"->
+        <p>My process is effective and delivers the results you are looking for: competitive edge for your service or product. Let me describe to you, how I will apply my knowledge to wield the perfect results for your needs.</p>
+        <h4>Research</h4>
+        <p>With every project I select I will proceed methodically. Knowing about the service or product offered by the company, understanding their goal, is of the utmost importance, which will lead to more accurate results determined by market research.</p>
+        <h4>Questionning</h4>
+        <p>Conducting interviews are a integral part of user satisfaction. Phrasing the user's mindset, helps represent their interaction with the interface and develop an accurate model to frame the difficulties they are facing. In doing so, creating for them a better experience.</p>
+        <h4>Concepts</h4>
+        <p>Communication with the stakeholder is a priority. Giving feedback about my findings and especially receiving their vues and ideation will lead to a better design and problem solving.</p>
+        <h4>Prototyping</h4>
+        <p>This process will facilitate the visualisation of the final solution. Putting pen to paper by sketching and wireframing, building with every phase of the project, a prototype which will be tested along the process with real users.</p>
+        <h4>Developing</h4>
+        <p>With all of this testing done, I will be able to deploy the best concept available for the product or service to introduce to the futur users. Either web based or ios, I will finalise the project and follow through with adjustments along the first few month of active deployment.</p>
       </div>
       </div>
-      </div> <!-- row  -->
-    </div> <!-- container -->
-</div>
+      <div class="col-sm-5 col-md-5 col-lg-4">
+        <div class="index">
+          <h3>Skills (qualifications) and Proficiencies (Expertise)</h3>
+          <p>Here is a list of some of the things I know.</p>
+        <ul class="skills">
+          <li>Sketch</li>
+          <li>InVision</li>
+          <li>OmniGraffle</li>
+          <li>Slack</li>
+          <li>Trello</li>
+          <li>Git</li>
+          <li>Github</li>
+          <li>Xcode</li>
+          <li>Swift</li>
+          <li>Marvel</li>
+          <li></li>
+          <li></li>
+        </ul> 
+        <ul class="pro">         
+          <li>Advanced</li>
+          <li>Advanced</li>
+          <li>Advanced</li>
+          <li>Expert</li>
+          <li>Expert</li>
+          <li>Advanced</li>
+          <li>Advanced</li>
+          <li>Expert</li>
+          <li>Expert</li>
+          <li>Expert</li>
+        </ul>
+      </div>  
+    </div>
+    </div> 
+  </div>  
 
-
-
-  
-      <hr>
-
-
+  <div class="container" id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="row" id="portfolio">
+      <div class="index">
+      <div class="col-md-3 col-xs-12 col-sm-4 col-lg-2"><div class="myclass"><span class="hidden-xs"><p>My first web site</p></span><a href="https://www.bitballoon.com/sites/carolac"><img src="img/portfolio1.jpg" alt="Portfolio1" class="img-responsive" id="work" style="width:180px;height:180px"></a></div>
+      </div>
+      <div class="col-md-3 col-xs-12 col-sm-4 col-lg-2"><div class="myclass"><span class="hidden-xs"><p>Bootstrap</p></span><a href="https://www.bitballoon.com/sites/carolac0"><img src="img/portfolio0.jpg" alt="Portfolio0" class="img-responsive" style="width:180px;height:180px"></a></div>
+      </div>
+      <div class="col-md-3 col-xs-12 col-sm-4 col-lg-2"><div class="myclass"><span class="hidden-xs"><p>Portfolio GL</p></span><a href="http://dev.geoffreylandry.com"><img src="img/glpic.jpg" alt="glportfolio" class="img-responsive" style="width:180px;height:180px"></a></div>
+      </div>
+      <div class="col-md-3 col-xs-12 col-sm-4 col-lg-2"><div class="myclass"><span class="hidden-xs"><p>Fog</p></span><img src="img/fog.jpg" alt="fog" class="img-responsive" style="width:180px;height:180px"></div>
+      </div>
+      <div class="col-md-3 col-xs-12 col-sm-4 col-lg-2"><div class="myclass"><span class="hidden-xs"><p>&nbsp;</p></span><img src="img/path.jpg" alt="path" class="img-responsive" style="width:180px;height:180px"></div>
+      </div>
+      <div class="col-md-3 col-xs-12 col-sm-4 col-lg-2"><div class="myclass"><span class="hidden-xs"><p>&nbsp;</p><span><img src="img/lizard1.jpg" alt="lizard" class="img-responsive" style="width: 180px;height: 180px"></div>
+      </div>
+      <div class="col-md-3 col-xs-12 col-sm-4 col-lg-2"><div class="myclass"><span class="hidden-xs"><p>&nbsp;</p></span><img src="img/beachcopy.jpg" alt="beach" class="img-responsive" id="work1" style="width: 180px;height: 180px"></div>
+       </div>
+      <div class="col-md-3 col-xs-12 col-sm-4 col-lg-2"><div class="myclass"><span class="hidden-xs"><p>&nbsp;</p></span></div>
+      </div>
+      </div>
+    </div> <!-- div class row -->
+  </div> <!-- div class container-->
    
+  <div class="container" id="blog">
+    <h2>Blog</h2>
+    <div class="row">
+    <div class="index">
+      <div class="col-xs-12 col-sm-9 col-md-9"><div class="index">
+        <h4>Bootstrap</h4>
+        <p>Since I started working with the Bootstrap grid, I’ve tried to find fault with it – any reason to convince myself that I’d be better off working with another system or developing my own. I haven’t been able to. All around it’s a great system.</p>
+        </div></div>
+      <div class="col-xs-12 col-sm-3 col-md-3"><div class="index">
+        <h4>Recent Post</h4>
+        <a href="http://getbootstrap.com/getting-started/#examples"><p>Examples of Bootstrap</p></a>
+        <a href="https://www.sessions.edu/color-calculator/"><p>Pick a Color</p></a>
+      </div></div>
+    </div>
+    </div>
+    <div class="row">
+    <div class="index">
+      <div class="col-xs-12 col-sm-9 col-md-9"><div class="index">
+         <h4>Apple</h4>
+        <p>By some metrics Apple Pay now ranks fifth in marketshare of the Web payments industry, according to new analytics data, although it still has a long road to tread before becoming commonplace.</p>
+        </div></div>
+      <div class="col-xs-12 col-sm-3 col-md-3"><div class="index">
+      </div></div>
+    </div>
+    </div>
+    <div class="row">
+    <div class="index">
+      <div class="col-xs-12 col-sm-9 col-md-9"><div class="index">
+         <h4>UX Design</h4>
+        <p>With data-driven decisions gradually becoming the norm in every industry, the information dashboard has an important role.
+
+With its interactive and intuitive interface and its ability to visualize data in a single screen, it’s becoming a critical tool in the hands of the business user. Moreover, the information dashboard is also making its way into apps used by laypeople for managing day-to-day activities like budget tracking and fitness management.
+
+So what makes information dashboards so appealing to the human mind? What is it that the human mind seeks that is so nicely provided by information dashboards?</p>
+        </div></div>
+      <div class="col-xs-12 col-sm-3 col-md-3"><div class="index">
+      </div></div>
+    </div>
+    </div>
+      <!-- <div class="col-xs-12 col-sm-10 col-md-10">
+      <div class="col-xs-12 col-sm-2 col-md-2">
+ -->    <!-- </div> -->
+  </div>
+
+  <div class="container" id="contact">
+    <h2>Contact Me</h2>
+    <div class="row">
+    <div class="index">
+      <div class="col-xs-12 col-sm-3 col-md-2">&nbsp;</div>
+      <div class="col-sm-6 col-md-7">
+      
+        <p>It will be a pleasure for me to answer any of your questions. There are many ways you can contact me, choose the one that suits you and I will communicate with you in the briefest delays. I'm looking forward to hearing from you. Thank you for your interest.</p><br><br><br><br><br><br></div>
+      <div class="col-sm-3 col-md-5"></div>
+    </div>
+    </div>
+      <div class="index">
+        <h4><span class="glyphicon glyphicon-map-marker"></span>&nbsp<b>Address:&nbsp&nbsp Vancouver, BC</b></h4></h4>
+        <h4><span class="glyphicon glyphicon-phone"></span>&nbsp<b>Phone:&nbsp&nbsp 778-707-****</b></h4>
+        <h4><i class="fa fa-linkedin"></i>&nbsp<a href="https://www.linkedin.com/in/caroline-lachance-6240a912a?authType=NAME_SEARCH&authToken=00sT&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A531728956%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1477523794568%2Ctas%3Acaroline">LinkedIn Profile</a></h4>
+        <h4><span class="glyphicon glyphicon-envelope"></span>&nbspEmail:&nbsp&nbsp<a href="mailto:caroline.lachance@virtuaxis.com">caroline.lachance@virtuaxis.com</a></h4>
+        <h4><i class="fa fa-twitter"></i>&nbsp<a href="http://twiter.com">Twitter</a>
+        </h4>
+      <br><br><br>
+    </div>
+  </div>
+      
+    
+      
 
 
-    <!-- ============================= -->
+
+        <!-- ============================= -->
     <!-- All your JavaScript comes now -->
+<script>
+ $(document).click(function (event) {
+    var clickover = $(event.target);
+    var $navbar = $(".navbar-collapse");               
+    var _opened = $navbar.hasClass("in");
+    if (_opened === true && !clickover.hasClass("navbar-toggle")) {      
+        $navbar.collapse('hide');
+    }
+});
+    </script>
+
+ <!--    <script>
+ $(document).click(function (event) {
+    var clickover = $(event.target);
+    var $navbar = $(".dropdown-menu");               
+    var _opened = $navbar.hasClass("in");
+    if (_opened === true && !clickover.hasClass("dropdown-toggle")) {      
+        $dropdown.menu('hide');
+    }
+});
+    </script> -->
+
+  <!--  -->
+
+
+<script type="text/javascript">
+  var $root = $('html, body');
+    $('.navbar-nav a').click(function() {
+        var href = $.attr(this, 'href');
+        $root.animate({
+            scrollTop: $(href).offset().top
+        }, 500, function () {
+            window.location.hash = href;
+        });
+        return false;
+    });
+</script>
     <!-- ============================= -->
 
     <!-- Bootstrap core JS -->
