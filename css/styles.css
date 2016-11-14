@@ -10,33 +10,47 @@ body {
 	background-size: cover;
 }	
 
+footer {
+	background-color:rgba(240, 248, 255, 0.90);
+	height: 100px;
+	padding: 0 20px;
+}
+
 .container {
 	background-color:rgba(240, 248, 255, 0.90);
 	width: 96%;
-	padding-top: 70px;
+	padding-top: 60px;
+}
+
+.carousel {
+	width: 100%;
 }
 
 .container-fluid {
 	background-color:rgba(240, 248, 255, 0.90);
-	margin: 0 -15px;
 }
+
 
 .logo {
 	position: relative;
-	margin: 70px 50px 0;
+	margin: 5px 10px;
 	display: inline-block;
 	box-shadow: 10px 10px 5px #767676;
-}
-
-.navbar {
-	background-color:rgba(255, 255, 255, 0.90);
-	margin: -60px 15px 20px;
 }
 
 .navbar-toggle {
 	background-color: #039;
 	box-shadow: 5px 5px 5px #767676;
 }
+
+.navbar-header .navbar-toggle:hover {
+	background-color: #039;
+}
+
+.navbar-header .navbar-toggle:focus {
+	background-color: #039;
+}
+
 
 .nav li {
 	margin: 15px 0 0 5px;
@@ -93,9 +107,12 @@ body {
 	color: #000;
 }
 
+.carousel-inner img {
+	margin: auto;
+}
+
 .carousel-caption p {
-	margin-top: -190px;
-	font-size: 1.6em;
+	font-size: 1.5em;
 }
 
 .right.carousel-control, .left.carousel-control {
@@ -136,13 +153,23 @@ body {
 	text-align: left;
 }	
 
-#carousel-example-generic {
-	top: 40px;
+#video {
+	/*padding-bottom: 50px;*/
+}
+
+.social {
+	float: left;
+	margin-top: 30px;
 }
 
 #intro {
 	margin: -80px 10px 0px;
 	box-shadow: 3px 3px 3px 3px #888888;
+}
+
+.copy {
+	float: right;
+	margin-top: 30px;
 }
 
 @media only screen and (max-width: 766px) {
@@ -160,7 +187,7 @@ body {
 
 
 
-          /**** portfolio page ****/
+          /**** portfolio page ***
 
     		 /**** BLog page ***/
 

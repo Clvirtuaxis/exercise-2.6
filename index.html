@@ -26,13 +26,18 @@
   </head>
 
   <body data-spy="scroll" data-target=".navbar">
+
+
+
     <!--navbar starts here-->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="logo">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+   
+      <nav class="logo">
+
           <a href="index.html"><img src="img/G.jpg" alt="Geoffrey Landry ios developer"></a>
-        </div>
-      <div class="container-fluid" id="intro">
-        <div class="navbar-header">
+        </nav>
+      <nav class="container-fluid" id="intro">
+        <nav class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -40,8 +45,8 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="#"></a>  
-        </div>
-        <div class="navbar-collapse collapse">
+        </nav>
+        <nav class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
@@ -55,11 +60,12 @@
             <li><a href="#contact">Contact</a></li>
             <li><a href="#faq">FAQ</a></li>
           </ul>
-        </div> <!--nav collapse-->
-      </div> <!--end nav container-->
-    </div> <!--end navbar-->
+        </nav> <!--nav collapse-->
+      </nav> <!--end nav container-->
+    </nav> <!--end navbar-->
 
-    <div class="container-fluid">
+
+<div class="carousel" id="pics">
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="4000">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -107,6 +113,7 @@
   </a>
 </div>
 </div>
+    
     
   <div class="container" id="about">
     <h2>About Me</h2>  
@@ -272,11 +279,11 @@ So what makes information dashboards so appealing to the human mind? What is it 
     </div>
     
       <div class="index">
-        <h4><span class="glyphicon glyphicon-map-marker"></span>&nbsp<b>Address:&nbsp&nbsp Vancouver, BC</b></h4></h4>
-        <h4><span class="glyphicon glyphicon-phone"></span>&nbsp<b>Phone:&nbsp&nbsp 778-707-****</b></h4>
-        <h4><i class="fa fa-linkedin"></i>&nbsp<a href="https://www.linkedin.com/in/caroline-lachance-6240a912a?authType=NAME_SEARCH&authToken=00sT&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A531728956%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1477523794568%2Ctas%3Acaroline">LinkedIn Profile</a></h4>
-        <h4><span class="glyphicon glyphicon-envelope"></span>&nbspEmail:&nbsp&nbsp<a href="mailto:caroline.lachance@virtuaxis.com">caroline.lachance@virtuaxis.com</a></h4>
-        <h4><i class="fa fa-twitter"></i>&nbsp<a href="http://twiter.com">Twitter</a>
+        <h4><span class="glyphicon glyphicon-map-marker"></span>&nbsp;<b>Address:&nbs;p&nbsp; Vancouver, BC</b></h4></h4>
+        <h4><span class="glyphicon glyphicon-phone"></span>&nbsp;<b>Phone:&nbsp;&nbsp; 778-707-****</b></h4>
+        <h4><i class="fa fa-linkedin"></i>&nbsp;<a href="https://www.linkedin.com/in/caroline-lachance-6240a912a?authType=NAME_SEARCH&authToken=00sT&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A531728956%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1477523794568%2Ctas%3Acaroline">LinkedIn Profile</a></h4>
+        <h4><span class="glyphicon glyphicon-envelope"></span>&nbsp;Email:&nbsp;&nbsp;<a href="mailto:caroline.lachance@virtuaxis.com">caroline.lachance@virtuaxis.com</a></h4>
+        <h4><i class="fa fa-twitter"></i>&nbsp;<a href="https://twitter.com/">Twitter</a>
         </h4>
       </div>
       <br>
@@ -334,14 +341,52 @@ So what makes information dashboards so appealing to the human mind? What is it 
     </div>
   </div>
 </div>
-<br><br><br><br><br><br><br>
+  <br><br><br><br>
 </div>
 </div>
+
+  <div class="container" id="video">
+    <h2>My Video</h2>
+    <div class="row">
+    <div class="index">
+      <div class="col-xs-12 col-sm-3 col-md-3">&nbsp;</div>
+      <div class="col-xs-12 col-sm-6 col-md-6">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/8TcSmQ6OgUw" frameborder="0" allowfullscreen></iframe>
+        </div></div>
+      <div class="col-xs-12 col-sm-3 col-md-3">&nbsp;</div>
+    </div>
+    </div>
+  </div>
+
+        
+
+  <footer>
+  <hr><hr>
+    <div class="social">
+    <a href="https://twitter.com/virtuaxis" class="twitter-follow-button" data-show-count="false">Follow @virtuaxis</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
+    </div>
+    <div class="copy">&copy Geoffrey Landry</div>
+  </footer>
   
       
-    
-        <!-- ============================= -->
+           <!-- ============================= -->
+ 
             <!-- All your JavaScript comes now -->
+
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        
+
 <script>
  $(document).click(function (event) {
     var clickover = $(event.target);
