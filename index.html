@@ -32,12 +32,12 @@
     <!--navbar starts here-->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
    
-      <nav class="logo">
+      <div class="logo">
 
           <a href="index.html"><img src="img/G.jpg" alt="Geoffrey Landry ios developer"></a>
-        </nav>
-      <nav class="container-fluid" id="intro">
-        <nav class="navbar-header">
+        </div>
+      <div class="container-fluid" id="intro">
+        <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -45,8 +45,8 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="#"></a>  
-        </nav>
-        <nav class="navbar-collapse collapse">
+        </div>
+        <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
@@ -60,8 +60,8 @@
             <li><a href="#contact">Contact</a></li>
             <li><a href="#faq">FAQ</a></li>
           </ul>
-        </nav> <!--nav collapse-->
-      </nav> <!--end nav container-->
+        </div> <!--nav collapse-->
+      </div> <!--end nav container-->
     </nav> <!--end navbar-->
 
 
@@ -271,31 +271,61 @@ So what makes information dashboards so appealing to the human mind? What is it 
     <div class="row">
     <div class="index">
       <div class="col-xs-12 col-sm-3 col-md-2">&nbsp;</div>
-      <div class="col-sm-6 col-md-7">
-      
-        <p>It will be a pleasure for me to answer any of your questions. There are many ways you can contact me, choose the one that suits you and I will communicate with you in the briefest delays. I'm looking forward to hearing from you. Thank you for your interest.</p><br><br><br><br><br><br></div>
-      <div class="col-sm-3 col-md-5"></div>
+      <div class="col-xs-12 col-sm-6 col-md-7">      
+        <p>It will be a pleasure for me to answer any of your questions. There are many ways you can contact me, choose the one that suits you and I will communicate with you in the briefest delays. I'm looking forward to hearing from you. Thank you for your interest.</p><br></div>
+      <div class="col-xs-12 col-sm-3 col-md-2">&nbsp;</div>
     </div>
     </div>
-    
+
+     <div class="row">
       <div class="index">
-        <h4><span class="glyphicon glyphicon-map-marker"></span>&nbsp;<b>Address:&nbs;p&nbsp; Vancouver, BC</b></h4></h4>
-        <h4><span class="glyphicon glyphicon-phone"></span>&nbsp;<b>Phone:&nbsp;&nbsp; 778-707-****</b></h4>
-        <h4><i class="fa fa-linkedin"></i>&nbsp;<a href="https://www.linkedin.com/in/caroline-lachance-6240a912a?authType=NAME_SEARCH&authToken=00sT&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A531728956%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1477523794568%2Ctas%3Acaroline">LinkedIn Profile</a></h4>
-        <h4><span class="glyphicon glyphicon-envelope"></span>&nbsp;Email:&nbsp;&nbsp;<a href="mailto:caroline.lachance@virtuaxis.com">caroline.lachance@virtuaxis.com</a></h4>
-        <h4><i class="fa fa-twitter"></i>&nbsp;<a href="https://twitter.com/">Twitter</a>
-        </h4>
+        <div class="col-xs-12 col-sm-2 col-md-2">&nbsp;</div>
+        <div class="col-xs-12 col-sm-8 col-md-8">      
+          <h4><span class="glyphicon glyphicon-map-marker"></span>&nbsp;<b>Address:&nbsp;&nbsp; Vancouver, BC</b></h4></h4>
+          <h4><span class="glyphicon glyphicon-phone"></span>&nbsp;<b>Phone:&nbsp;&nbsp; 778-707-****</b></h4>
+          <h4><i class="fa fa-linkedin"></i>&nbsp;<a href="https://www.linkedin.com/in/caroline-lachance-6240a912a?authType=NAME_SEARCH&authToken=00sT&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A531728956%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1477523794568%2Ctas%3Acaroline">LinkedIn Profile</a></h4>
+          <h4><span class="glyphicon glyphicon-envelope"></span>&nbsp;Email:&nbsp;&nbsp;<a href="mailto:caroline.lachance@virtuaxis.com">caroline.lachance@virtuaxis.com</a></h4>
+          <h4><i class="fa fa-twitter"></i>&nbsp;<a href="https://twitter.com/">Twitter</a></h4>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-md-2">&nbsp;</div>
       </div>
-      <br>
     </div>
 
-
+    <div class="row">
       
+      <div class="index">
+      <h4>Or fill this form</h4>
+        <div class="col-xs-12 col-sm-2 col-md-2">&nbsp;</div>
+        <div class="col-sm-8 col-md-8">      
+          
+          <form action="/login" method="post" name="login">
+          <form class="form-inline">
+            <div class="form-group">
+             <label class="sr-only" for="name">Name</label>
+             <input class="form-control" name="text" id="name" placeholder="Name" type="text">
+             <label class="sr-only" for="name">tel</label>
+             <input class="form-control" name="tel" id="phone" placeholder="Phone number" type="tel">
+            </div>
+          </form>
+          <form>
+            <div class="form-group">
+             <label class="sr-only" for="email">Email addess</label>
+             <input class="form-control" name="email" id="email" required="required" placeholder="Email Address" type="email">
+            </div>
+            <textarea class="form-control" name="message" id="message" required="required" placeholder="Your message here *" style="resize: none" cols="60" rows="6"></textarea>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+    
   <div class="container" id="faq">
-  <h2>FAQ</h2>
-  <div class="index">
-  <div class="panel-group" id="accordion">
-  <div class="panel panel-default">
+    <h2>FAQ</h2>
+    <div class="index">
+    <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-triangle-bottom"></span></a>
@@ -309,8 +339,8 @@ So what makes information dashboards so appealing to the human mind? What is it 
         It depends on the degree of difficulty and the level of danger present for our agent. Of course, an agreement will be made prior to the start of the mission. The range veries between 500$ and 3000$.
       </div>
     </div>
-  </div>
-  <div class="panel panel-default">
+    </div>
+    <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-triangle-bottom"></span></a>
@@ -324,8 +354,8 @@ So what makes information dashboards so appealing to the human mind? What is it 
         Most tasks will be skillfully accompliched in only 1 to 3 weeks. If the urgency level is extremely high, our operative can give you a first progress report after only 24 hours.
       </div>
     </div>
-  </div>
-  <div class="panel panel-default">
+    </div>
+    <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
       <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-triangle-bottom"></span></a>
@@ -339,11 +369,12 @@ So what makes information dashboards so appealing to the human mind? What is it 
         No, since she is verse in information technology, the long distance employment will not affect the quality of the work. The channels of communication will be open. The assignment is going to be accomplished involving your input, to make sure you will be pleased with the outcome.
       </div>
     </div>
+    </div>
   </div>
-</div>
-  <br><br><br><br>
-</div>
-</div>
+  </div>
+  </div>
+
+
 
   <div class="container" id="video">
     <h2>My Video</h2>
@@ -362,7 +393,7 @@ So what makes information dashboards so appealing to the human mind? What is it 
         
 
   <footer>
-  <hr><hr>
+    <hr><hr>
     <div class="social">
     <a href="https://twitter.com/virtuaxis" class="twitter-follow-button" data-show-count="false">Follow @virtuaxis</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
     <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
