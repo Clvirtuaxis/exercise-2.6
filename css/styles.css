@@ -1,82 +1,82 @@
 * {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-	position: relative;
-	width: 100%;
-	background: url("../img/bridge.jpeg") no-repeat center center fixed;
-	background-size: cover;
-}	
+  position: relative;
+  width: 100%;
+  background: url("../img/bridge.jpeg") no-repeat center center fixed;
+  background-size: cover;
+} 
 
 footer {
-	background-color:rgba(240, 248, 255, 0.90);
-	height: 100px;
-	padding: 0 20px;
+  background-color:rgba(240, 248, 255, 0.90);
+  height: 100px;
+  padding: 0 20px;
 }
 
 .container {
-	background-color:rgba(240, 248, 255, 0.90);
-	width: 96%;
-	padding-top: 60px;
+  background-color:rgba(240, 248, 255, 0.90);
+  width: 96%;
+  padding-top: 60px;
 }
 
 .carousel {
-	width: 100%;
+  width: 100%;
 }
 
 .container-fluid {
-	background-color:rgba(240, 248, 255, 0.90);
+  background-color:rgba(240, 248, 255, 0.90);
 }
 
 
 .logo {
-	position: relative;
-	margin: 5px 10px;
-	display: inline-block;
-	box-shadow: 10px 10px 5px #767676;
+  position: relative;
+  margin: 5px 10px;
+  display: inline-block;
+  box-shadow: 10px 10px 5px #767676;
 }
 
 .navbar-toggle {
-	background-color: #039;
-	box-shadow: 5px 5px 5px #767676;
+  background-color: #039;
+  box-shadow: 5px 5px 5px #767676;
 }
 
 .navbar-header .navbar-toggle:hover {
-	background-color: #039;
+  background-color: #039;
 }
 
 .navbar-header .navbar-toggle:focus {
-	background-color: #039;
+  background-color: #039;
 }
 
 
 .nav li {
-	margin: 15px 0 0 5px;
+  margin: 15px 0 0 5px;
 }
 
 .nav li a {
-	border-bottom: 4px solid #039;
-	text-transform: uppercase;
+  border-bottom: 4px solid #039;
+  text-transform: uppercase;
   letter-spacing: 0.05em;
-	text-decoration: none;
-	transition: color 800ms;
-	-webkit-transition: color 800ms;
-	padding: 5px 25px;
+  text-decoration: none;
+  transition: color 800ms;
+  -webkit-transition: color 800ms;
+  padding: 5px 25px;
 }
 
 .nav li a:hover {
-	border-bottom: 4px solid #6b95ff;
-	color: #e0dedc;
-	letter-spacing: 0.05em;
-	padding: 5px 25px;
-	transition: color 800ms;
-	-webkit-transition: color 800ms;
+  border-bottom: 4px solid #6b95ff;
+  color: #e0dedc;
+  letter-spacing: 0.05em;
+  padding: 5px 25px;
+  transition: color 800ms;
+  -webkit-transition: color 800ms;
 }
 
 .dropdown-menu {
-	background-color: #f0f8ff;
+  background-color: #f0f8ff;
 }
 
 .dropdown-menu li {
@@ -84,35 +84,35 @@ footer {
 }
 
 .dropdown-menu li:hover {
-	margin: -2px;
+  margin: -2px;
 }
 
 .dropdown-menu li a {
-	text-decoration: none;
-	text-transform: capitalize;
-	border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  border: none;
 }
 
 .dropdown-menu li a:hover {
-	text-decoration: none;
-	text-transform: capitalize;
-	border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  border: none;
 }
 
 .dropdown li a {
-	color: #646c70;
+  color: #646c70;
 }
 
 .dropdown li a:hover {
-	color: #000;
+  color: #000;
 }
 
 .carousel-inner img {
-	margin: auto;
+  margin: auto;
 }
 
 .carousel-caption p {
-	font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 .right.carousel-control, .left.carousel-control {
@@ -121,26 +121,26 @@ footer {
 }
 
 .mystyle {
-	color: black;
+  color: black;
 }
 
 .index {
-	text-align: center;
-	padding-top: 20px;
+  text-align: center;
+  padding-top: 20px;
 }
 
 .index h4 {
-	font-weight: 1.3em;
+  font-weight: 1.3em;
 }
 
 .skills {
-	width: 50%;
-	margin: 20px 0 0 50px;
+  width: 50%;
+  margin: 20px 0 0 50px;
 }
 
 .skills li {
-	list-style-type: none;
-	text-align: left;
+  list-style-type: none;
+  text-align: left;
 }
 
 .pro {
@@ -149,70 +149,104 @@ footer {
 }
 
 .pro li {
-	list-style-type: none;
-	text-align: left;
-}	
+  list-style-type: none;
+  text-align: left;
+} 
+
+#blog {
+  background-image: url('../img/lightning.jpg');
+  background-attachment: fixed;
+  height: 560px;
+}
+
+.black {
+  color: lightgrey;
+  padding-top: 10px;
+}
 
 #contact {
-	padding-bottom: 30px;
+  padding-bottom: 30px;
+  width: 100%;
 }
 
 #message {
-	width: 80%;
+  width: 80%;
 }
 
 .form-control {
-	width: 60%;
-	margin: 0 auto;
+  width: 30%;
+  margin: 0 auto;
 }
 
-.btn {
-	width: 20%;
-	margin: 10px auto;
-	background-color: #039;
-	color: white;
-	box-shadow: 5px 5px 5px #767676;
+#submit {
+  width: 20%;
+  margin: 10px auto;
+  color: white;
+  background-color: #039;
+  box-shadow: 5px 5px 5px #767676;
+}
+
+.learn-more {
+  float: left;
+  padding-left: 15px;
+  text-align: left;
+}
+
+#modal {
+  float: right;
+  background-color: #039;
+  margin: 10px 17px 10px;
+  box-shadow: 5px 5px 5px #767676;
+}
+
+#learn {
+  width: 100%;
+}
+
+#cv {
+  height: 450px;
+  width: 100%;
 }
 
 #video {
-	/*padding-bottom: 50px;*/
+  width: 100%;
 }
 
 .social {
-	float: left;
-	margin-top: 30px;
+  float: left;
+  margin-top: 30px;
 }
 
 #intro {
-	margin: -80px 10px 0px;
-	box-shadow: 3px 3px 3px 3px #888888;
+  margin: -80px 10px 0px;
+  box-shadow: 3px 3px 3px 3px #888888;
 }
 
 .copy {
-	float: right;
-	margin-top: 30px;
+  float: right;
+  margin-top: 30px;
 }
 
 @media only screen and (max-width: 766px) {
 .collapsing, .in {}
 .collapsing ul li a, .in ul li a {
-	text-decoration: none;
-	text-transform: capitalize;
-	border: none;}
+  text-decoration: none;
+  text-transform: capitalize;
+  border: none;}
 .collapsing ul li a:hover, .in ul li a:hover {
-	color: #6b95ff!important;
-	text-decoration: none;
-	text-transform: capitalize;
-	border: none;}
+  color: #6b95ff!important;
+  text-decoration: none;
+  text-transform: capitalize;
+  border: none;}
 }
 
 
 
           /**** portfolio page ***
 
-    		 /**** BLog page ***/
+         /**** BLog page ***/
 
-  		   /**** contact page ***/
+         /**** contact page ***/
 
 
 
