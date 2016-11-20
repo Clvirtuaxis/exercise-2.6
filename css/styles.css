@@ -16,20 +16,19 @@ footer {
   padding: 0 20px;
 }
 
+ /*** backgrounds ***/
+
 .container {
   background-color:rgba(240, 248, 255, 0.90);
   width: 96%;
   padding-top: 60px;
 }
 
-.carousel {
-  width: 100%;
-}
+ /*** navbar ***/
 
 .container-fluid {
   background-color:rgba(240, 248, 255, 0.90);
 }
-
 
 .logo {
   position: relative;
@@ -37,20 +36,6 @@ footer {
   display: inline-block;
   box-shadow: 10px 10px 5px #767676;
 }
-
-.navbar-toggle {
-  background-color: #039;
-  box-shadow: 5px 5px 5px #767676;
-}
-
-.navbar-header .navbar-toggle:hover {
-  background-color: #039;
-}
-
-.navbar-header .navbar-toggle:focus {
-  background-color: #039;
-}
-
 
 .nav li {
   margin: 15px 0 0 5px;
@@ -73,6 +58,27 @@ footer {
   padding: 5px 25px;
   transition: color 800ms;
   -webkit-transition: color 800ms;
+}
+
+.navbar-toggle {
+  background-color: #039;
+  box-shadow: 5px 5px 5px #767676;
+}
+
+.navbar-header .navbar-toggle:hover {
+  background-color: #039;
+}
+
+.navbar-header .navbar-toggle:focus {
+  background-color: #039;
+}
+
+.dropdown li a {
+  color: #646c70;
+}
+
+.dropdown li a:hover {
+  color: #000;
 }
 
 .dropdown-menu {
@@ -99,132 +105,9 @@ footer {
   border: none;
 }
 
-.dropdown li a {
-  color: #646c70;
-}
-
-.dropdown li a:hover {
-  color: #000;
-}
-
-.carousel-inner img {
-  margin: auto;
-}
-
-.carousel-caption p {
-  font-size: 1.5em;
-}
-
-.right.carousel-control, .left.carousel-control {
-  opacity: 0;
-  filter: alpha(opacity=0);
-}
-
-.mystyle {
-  color: black;
-}
-
-.index {
-  text-align: center;
-  padding-top: 20px;
-}
-
-.index h4 {
-  font-weight: 1.3em;
-}
-
-.skills {
-  width: 50%;
-  margin: 20px 0 0 50px;
-}
-
-.skills li {
-  list-style-type: none;
-  text-align: left;
-}
-
-.pro {
-  width: 50%;
-  margin: -200px 0 0 200px;
-}
-
-.pro li {
-  list-style-type: none;
-  text-align: left;
-} 
-
-#blog {
-  background-image: url('../img/lightning.jpg');
-  background-attachment: fixed;
-  height: 560px;
-}
-
-.black {
-  color: lightgrey;
-  padding-top: 10px;
-}
-
-#contact {
-  padding-bottom: 30px;
-  width: 100%;
-}
-
-#message {
-  width: 80%;
-}
-
-.form-control {
-  width: 30%;
-  margin: 0 auto;
-}
-
-#submit {
-  width: 20%;
-  margin: 10px auto;
-  color: white;
-  background-color: #039;
-  box-shadow: 5px 5px 5px #767676;
-}
-
-.learn-more {
-  float: left;
-  padding-left: 15px;
-  text-align: left;
-}
-
-#modal {
-  float: right;
-  background-color: #039;
-  margin: 10px 17px 10px;
-  box-shadow: 5px 5px 5px #767676;
-}
-
-#learn {
-  width: 100%;
-}
-
-#cv {
-  height: 450px;
-  width: 100%;
-}
-
-#video {
-  width: 100%;
-}
-
-.social {
-  float: left;
-  margin-top: 30px;
-}
-
-#intro {
+#start {
   margin: -80px 10px 0px;
   box-shadow: 3px 3px 3px 3px #888888;
-}
-
-.copy {
-  float: right;
-  margin-top: 30px;
 }
 
 @media only screen and (max-width: 766px) {
@@ -240,13 +123,153 @@ footer {
   border: none;}
 }
 
+ /*** carousel ***/
+
+.carousel {
+  width: 100%;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.carousel-caption p {
+  font-size: 1.5em;
+}
+
+.right.carousel-control, .left.carousel-control {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+/*** color of caption in carousel ***/
+
+.mystyle {
+  color: black;
+}
+
+ /*** class for the text on all the site ***/
+
+.index {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.index h4 {
+  font-weight: 1.3em;
+}
+
+/*** class for columms in services section ***/
+
+.skills {
+  width: 50%;
+  margin: 20px 0 0 50px;
+}
+
+.skills li {
+  list-style-type: none;
+  text-align: left;
+}
+
+.grade {
+  width: 50%;
+  margin: -200px 0 0 200px;
+}
+
+.grade li {
+  list-style-type: none;
+  text-align: left;
+} 
+
+#modal {
+  float: right;
+  background-color: #039;
+  margin: 10px 17px 10px;
+  box-shadow: 5px 5px 5px #767676;
+}
+
+/*** portfolio section ***/
+
+.col-md-3 {
+  margin-bottom: 30px;
+}
+
+/*** blog section ***/
 
 
-          /**** portfolio page ***
+.blog-text {
+  color: lightgrey;
+  padding-top: 10px;
+}
 
-         /**** BLog page ***/
+#blog {
+  background-image: url('../img/lightning.jpg');
+  background-attachment: fixed;
+ /* display: block;*/
+  height: auto;
+  max-width: 100%;
+}
 
-         /**** contact page ***/
+/*** contact section ***/
 
+.form-control {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.red {
+  color: red;
+  font-weight: 700;
+}
+
+#contact {
+  padding-bottom: 30px;
+  background-color: transparent;
+}
+
+#message {
+  width: 80%;
+}
+
+#submit {
+  width: 20%;
+  margin: 10px auto;
+  color: white;
+  background-color: #039;
+  box-shadow: 5px 5px 5px #767676;
+}
+
+/*** learn more section ***/
+
+.learn-more {
+  float: left;
+  /*padding-left: 15px;*/
+  text-align: left;
+}
+
+#cv {
+  height: 450px;
+  width: 100%;
+}
+
+#video {
+  padding-bottom: 20px;
+}
+
+#learn {
+  background-color: transparent;
+}
+
+/*** footer section ***/
+
+.social {
+  float: left;
+  margin-top: 30px;
+}
+
+.copy {
+  float: right;
+  margin-top: 30px;
+}
 
 
