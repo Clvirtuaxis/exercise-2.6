@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <title>Geoffrey Landry ux designer and ios developer</title> 
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-  
-    <!-- Latest compiled and minified CSS -->
+      <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> 
 
     <!-- Custom styles for this template go here -->
@@ -27,8 +27,6 @@
 
   <body data-spy="scroll" data-target=".navbar">
 
-
-
     <!--navbar starts here-->
     <nav class="navbar navbar-default navbar-fixed-top">   
       <div class="logo">
@@ -41,22 +39,18 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"></a>  
+          </button> 
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown" data-toggle="collapse" data-target=".navbar-collapse">
             <li class="active"><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
-            <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="#work">Work</a></li>
-            <li><a href="#work1">Work1</a></li>
-          </ul></li>             
+            <li><a href="#work">Portfolio</a></li>             
             <li><a href="#blog">Blog</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="#learn">Learn More</a></li>
+            <li><a href="#learn">More</a></li>
+            </li>
           </ul>
         </div> <!--nav collapse-->
       </div> <!--end nav container-->
@@ -115,13 +109,14 @@
     </div>
     
     
+
     <div class="container" id="about">
       <h2>About Me</h2>  
       <div class="row" id="background">
         <div class="col-xs-12 col-sm-8 col-md-8">        
           <div class="index">
             <h4>Background</h4>
-            <p>My first calling was to help animal. As a child I had a need to take care of every kind of legged creatures that came near me. Wether they were cats, dogs, horses, birds, lizards, rodents, incects, they all ended up belonging to me!<br> This eagerness lead me to start a career as a veterinary assistant. After 10 years of following my passion, I turned to technology, specialysing in x-ray and discovering my second passion, the workings of computers!</p>
+            <p>My first calling was to help animal. As a child I had a need to take care of every kind of legged creatures that came near me. Wether they were cats, dogs, horses, birds, lizards, rodents, incects, they all ended up belonging to me!<br> This eagerness led me to start a career as a veterinary assistant. After 10 years of following my passion, I turned to technology, specialysing in x-ray and discovering my second passion, the workings of computers!</p>
           </div>
         </div>
         <div class="col-xs-12 col-sm-4 col-md-4">
@@ -136,7 +131,7 @@
           <div class="index">
             <h4>Passions</h4>
             <p>We will work with you to bring forth beautiful applications and awesome website following your ideas and plans. Designing perfect digital media is our mission in life. Like so many others, depend on us to built the best design for your needs.</p>
-            <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="More on me" id="item2">View details &raquo;</button>
+            <tooltip type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="More on me" id="item2">View details &raquo;</tooltip>
           </div>
         </div>
         <div class="col-xs-12 col-sm-4 col-md-4">
@@ -146,6 +141,7 @@
         </div>
       </div> <!-- row  -->
     </div> <!-- container -->
+
 
     <div class="container" id="services">
       <h2>Services</h2>
@@ -167,7 +163,7 @@
         </div>
         <div class="col-sm-5 col-md-5 col-lg-4">
           <div class="index">
-            <h3><a href="https://www.linkedin.com/in/caroline-lachance-6240a912a?authType=NAME_SEARCH&authToken=00sT&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A531728956%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1477523794568%2Ctas%3Acaroline" data-toggle="tooltip" data-placement="top" title="For a list of all my skills visit my linkedIn page" id="item1">Skills</a>(qualifications) and Proficiencies (Expertise)</h3>
+            <tooltip><h3><a href="https://www.linkedin.com/in/caroline-lachance-6240a912a?authType=NAME_SEARCH&authToken=00sT&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A531728956%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1477523794568%2Ctas%3Acaroline" data-toggle="tooltip" data-placement="top" title="For a list of all my skills visit my linkedIn page" id="item1">Skills</a>(qualifications) and Proficiencies (Expertise)</h3></tooltip>
             <p>Here is a list of some of the things I know.</p>
             <ul class="skills">
               <li>Sketch</li>
@@ -200,13 +196,15 @@
       </div> 
     </div>  
 
-    <div class="container" id="portfolio">
+
+    <div class="container" id="work">
       <h2>Portfolio</h2>
-      <div class="row">
-        <div class="index">
-          <div class="col-md-3 col-xs-12 col-sm-4 col-lg-2"><div class="myclass"><span class="hidden-xs"><p>My first web site</p></span><a href="https://www.bitballoon.com/sites/carolac"><img src="img/portfolio1.jpg" alt="Portfolio1" class="img-responsive" id="work" style="width:180px;height:180px"></a></div>
+      <br><br>
+      <div class="row" id="portfolio">
+        <!-- <div class="index"> -->
+          <!-- <div class="col-md-3 col-xs-12 col-sm-4 col-lg-2"><div class="myclass"><span class="hidden-xs"><p>My first web site</p></span><a href="https://carolac.bitballoon.com"><img src="img/portfolio1.jpg" alt="Portfolio1" class="img-responsive" style="width:180px;height:180px"></a></div>
           </div>
-          <div class="col-md-3 col-xs-12 col-sm-4 col-lg-2"><div class="myclass"><span class="hidden-xs"><p>Bootstrap</p></span><a href="https://www.bitballoon.com/sites/carolac0"><img src="img/portfolio0.jpg" alt="Portfolio0" class="img-responsive" style="width:180px;height:180px"></a></div>
+          <div class="col-md-3 col-xs-12 col-sm-4 col-lg-2"><div class="myclass"><span class="hidden-xs"><p>Bootstrap</p></span><a href="https://carolac0.bitballoon.com"><img src="img/portfolio0.jpg" alt="Portfolio0" class="img-responsive" style="width:180px;height:180px"></a></div>
           </div>
           <div class="col-md-3 col-xs-12 col-sm-4 col-lg-2"><div class="myclass"><span class="hidden-xs"><p>Portfolio GL</p></span><a href="http://dev.geoffreylandry.com"><img src="img/glpic.jpg" alt="glportfolio" class="img-responsive" style="width:180px;height:180px"></a></div>
           </div>
@@ -218,11 +216,12 @@
           </div>
           <div class="col-md-3 col-xs-12 col-sm-4 col-lg-2"><div class="myclass"><span class="hidden-xs"><p>&nbsp;</p></span><img src="img/beachcopy.jpg" alt="beach" class="img-responsive" id="work1" style="width: 180px;height: 180px"></div>
           </div>
-          <div class="col-md-3 col-xs-12 col-sm-4 col-lg-2"><div class="myclass"><span class="hidden-xs"><p>&nbsp;</p></span></div>
-        </div>
+          <div class="col-md-3 col-xs-12 col-sm-4 col-lg-2"><div class="myclass"><span class="hidden-xs"><p>&nbsp;</p></span></div> -->
+        <!-- </div> -->
       </div> <!-- div class row -->
     </div> <!-- div class container-->
    
+
     <div class="container" id="blog">
       <div data-stellar-background-ratio="0.1">
         <h2 class="blog-text">Blog</h2>
@@ -266,15 +265,16 @@
       </div>
     </div>
 
+
     <div class="container" id="contact">
       <h2>Contact Me</h2>
       <div class="row">
         <div class="index">
-          <div class="col-xs-12 col-sm-3 col-md-2">&nbsp;</div>
-          <div class="col-xs-12 col-sm-6 col-md-7">      
+          <div class="col-xs-12 col-sm-3 col-md-3">&nbsp;</div>
+          <div class="col-xs-12 col-sm-6 col-md-6">      
             <p>It will be a pleasure for me to answer any of your questions. There are many ways you can contact me, choose the one that suits you and I will communicate with you in the briefest delays. I'm looking forward to hearing from you. Thank you for your interest.</p><br>
           </div>
-          <div class="col-xs-12 col-sm-3 col-md-2">&nbsp;</div>
+          <div class="col-xs-12 col-sm-3 col-md-3">&nbsp;</div>
         </div>
       </div>
 
@@ -302,10 +302,9 @@
               <div class="form-group">
                 <label class="sr-only" for="name">Name</label>
                 <input class="name" name="text" id="name" placeholder="Name" type="text">
-                <span class="red" id="visible-namenumber"></span>
+                <span class="name-text" id="visible-namenumber"></span>
                 <label class="sr-only" for="name">tel</label>
                 <input class="tel" name="tel" id="phone" placeholder="Phone number" type="tel">
-                
               </div>
             </form>
             <form>
@@ -314,7 +313,11 @@
                 <input class="email" name="email" id="email" required="required" placeholder="Email Address" type="email"><p id="visible-email"></p>
                 <textarea class="message" name="message" id="message" required="required" placeholder="Your message here *" style="resize: none" cols="60" rows="6"></textarea>
                 <p id="visible-comment"></p>
+                <p id="char-count"></p>
                 <button type="submit" id="submit" class="btn btn-default">Submit</button>
+                  <!-- <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/streetview?location=45.4373%2C-73.6038&key=AIzaSyA8ChOdAeHuMJAEGQ2LqJp1llq7y5_AnbU" allowfullscreen>
+                  </iframe> -->
+                <div id="map"></div>
               </div>  
             </form>
           </div>
@@ -322,12 +325,12 @@
       </div>
     </div>
 
+
     <div class="container" id="learn">
       <div class="row">
         <h2 class="learn-more"><span id="first"></span>Learn more</h2>
-        <button type="modal-button" class="btn btn-primary" id="modal" data-toggle="modal" data-target=".bs-example-modal-lg">View Resume/CV.</button>
-      <!-- </div> -->
-        <div class="modal fade bs-example-modal-lg" tabinex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <modal type="modal-button" class="btn btn-primary" id="modal" data-toggle="modal" data-target=".bs-example-modal-lg">View Resume/CV.</modal>
+        <modal class="modal fade bs-example-modal-lg" tabinex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-lg">
             <div class="modal-content">
               <div class="modal-header">
@@ -339,64 +342,67 @@
               </div>
             </div>
           </div>
-        </div>
+        </modal>
       </div> <!-- div row -->
-    </div>  <!-- div container -->
+    </div>  <!-- modal container -->
 
-    <div class="index">
-      <div class="panel-group" id="accordion">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-triangle-bottom"></span></a>
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-             How much do you charge to contractualize your agent?
-            </a>
-            </h4>
-          </div>
-          <div id="collapseOne" class="panel-collapse collapse in">
-            <div class="panel-body">
-              It depends on the degree of difficulty and the level of danger present for our agent. Of course, an agreement will be made prior to the start of the mission. The range veries between 500$ and 3000$.
-            </div>
-          </div>
-        </div>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">
+
+    <div class="container">
+      <div class="index">
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
               <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-triangle-bottom"></span></a>
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-              How long will it take to complete my task?
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+               How much do you charge to contractualize your agent?
               </a>
-            </h4>
-          </div>
-          <div id="collapseTwo" class="panel-collapse collapse">
-            <div class="panel-body">
-              Most tasks will be skillfully accompliched in only 1 to 3 weeks. If the urgency level is extremely high, our operative can give you a first progress report after only 24 hours.
+              </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+              <div class="panel-body">
+                It depends on the degree of difficulty and the level of danger present for our agent. Of course, an agreement will be made prior to the start of the mission. The range veries between 500$ and 3000$.
+              </div>
             </div>
           </div>
-        </div>
           <div class="panel panel-default">
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-triangle-bottom"></span></a>
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                The mission will not take place where your operative lives, will that be a problem?
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                How long will it take to complete my task?
                 </a>
               </h4>
             </div>
-            <div id="collapseThree" class="panel-collapse collapse">
+            <div id="collapseTwo" class="panel-collapse collapse">
               <div class="panel-body">
-                No, since she is verse in information technology, the long distance employment will not affect the quality of the work. The channels of communication will be open. The assignment is going to be accomplished involving your input, to make sure you will be pleased with the outcome.
+                Most tasks will be skillfully accompliched in only 1 to 3 weeks. If the urgency level is extremely high, our operative can give you a first progress report after only 24 hours.
+              </div>
+            </div>
+          </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-triangle-bottom"></span></a>
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                  The mission will not take place where your operative lives, will that be a problem?
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseThree" class="panel-collapse collapse">
+                <div class="panel-body">
+                  No, since she is verse in information technology, the long distance employment will not affect the quality of the work. The channels of communication will be open. The assignment is going to be accomplished involving your input, to make sure you will be pleased with the outcome.
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div>  
     </div>
 
 
 
-    <div class="container" id="video">
+   <!--  <div class="container" id="video">
       <h2>My Video</h2>
       <div class="row">
         <div class="index">
@@ -409,15 +415,17 @@
           <div class="col-xs-12 col-sm-3 col-md-3">&nbsp;</div>
         </div>
       </div>
-    </div>
+    </div> -->
 
         
 
     <footer>
       <hr><hr>
       <div class="social" id="fb-root">
-        <a href="https://twitter.com/virtuaxis" class="twitter-follow-button" data-show-count="false">Follow @virtuaxis</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
+        <a href="https://twitter.com/virtuaxis" class="twitter-follow-button" data-show-count="false">Follow @virtuaxis
+        </a>
+        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button"  data-action="like" data-show-faces="true" data-share="true">         
       </div>
       </div>
        <div class="copy">&copy; Geoffrey Landry</div>
@@ -432,16 +440,14 @@
 
 <script src="js/jquery.stellar.min.js"></script>
 
+<script src="js/work.js"></script>
+
 <script src="js/scripts.js"></script>
 
-
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfGB_KHSRiGRAJ-HJiNCgOPjgIE31wKQ4&callback=initMap"
+  type="text/javascript"></script>
 
     <!-- ============================= -->
-
-    <!-- Bootstrap core JS -->
-
-    <!-- Can place script tags with JavaScript files here -->
-
 
   </body>
 </html>
